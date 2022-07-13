@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Grid Layout Animation | Codrops</title>
+		<meta name="description" content="A simple layout transition where a small grid animates to a larger view, using the Flip plugin from GreenSock." />
+		<meta name="keywords" content="grid, page transition, animation, gsap, flip plugin" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="https://use.typekit.net/zit8gdx.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<script src="//tympanus.net/codrops/adpacks/analytics.js"></script>
+	</head>
+	<body class="loading">
+		<main>
+			<div class="frame">
+				<div class="frame__title"> 
+					<h1 class="frame__title-main">Grid Layout Animation</h1> 
+					<a aria-label="Back to the article" title="Back to the article" class="frame__title-back" href="https://tympanus.net/codrops/?p=64172"> 
+						<span class="oh__inner">Back to the article</span> 
+						<svg width="18px" height="18px" viewBox="0 0 24 24"><path vector-effect="non-scaling-stroke" d="M18.25 15.5a.75.75 0 00.75-.75v-9a.75.75 0 00-.75-.75h-9a.75.75 0 000 1.5h7.19L6.22 16.72a.75.75 0 101.06 1.06L17.5 7.56v7.19c0 .414.336.75.75.75z"></path>
+						</svg>
+					</a> 
+				</div>
+				<a href="https://tympanus.net/Tutorials/CoverPageTransition/" class="frame__prev">Previous demo</a>
+				<button class="frame__home unbutton oh" aria-label="Back to the homepage"><span class="oh__inner">Back</span></button>
+			</div>
+			<section class="content">
+				<div class="content__title-wrap">
+					<h2 class="content__title">Issey Maurice</span></h2>
+					<h3 class="content__subtitle">Interior Design</span></h3>
+				</div>
+				<div class="grid-wrap">
+					<div class="grid">
+						<a class="grid__item" data-title="Rockbare Hub, NY"><span class="grid__item-img" style="background-image:url(img/1.jpg)"></span></a>
+						<a class="grid__item" data-title="Alo House, LA"><span class="grid__item-img" style="background-image:url(img/2.jpg)"></span></a>
+						<a class="grid__item" data-title="Freedom Field, NY"><span class="grid__item-img" style="background-image:url(img/3.jpg)"></span></a>
+						<a class="grid__item" data-title="Hollow Creek, AR"><span class="grid__item-img" style="background-image:url(img/4.jpg)"></span></a>
+						<a class="grid__item" data-title="Coco's Place, VT"><span class="grid__item-img" style="background-image:url(img/5.jpg)"></span></a>
+						<a class="grid__item" data-title="French Blanc, WY"><span class="grid__item-img" style="background-image:url(img/6.jpg)"></span></a>
+						<a class="grid__item" data-title="Fantasy Garden, NY"><span class="grid__item-img" style="background-image:url(img/7.jpg)"></span></a>
+						<a class="grid__item" data-title="Quegmire Denn, LA"><span class="grid__item-img" style="background-image:url(img/8.jpg)"></span></a>
+						<a class="grid__item" data-title="Kurku Wax, NY"><span class="grid__item-img" style="background-image:url(img/9.jpg)"></span></a>
+						<a class="grid__item" data-title="Jen's Hub, CO"><span class="grid__item-img" style="background-image:url(img/10.jpg)"></span></a>
+						<a class="grid__item" data-title="Beluga Nest, AZ"><span class="grid__item-img" style="background-image:url(img/11.jpg)"></span></a>
+						<a class="grid__item" data-title="Bibi Montes, FL"><span class="grid__item-img" style="background-image:url(img/12.jpg)"></span></a>
+						<a class="grid__item" data-title="QX House, NY"><span class="grid__item-img" style="background-image:url(img/13.jpg)"></span></a>
+						<a class="grid__item" data-title="Lola's Garden, DC"><span class="grid__item-img" style="background-image:url(img/14.jpg)"></span></a>
+					</div>
+				</div>
+				<div class="enter oh">
+					<a class="enter__link oh__inner"> 
+						<span>Enter</span> 
+						<svg width="18px" height="18px" viewBox="0 0 24 24"><path vector-effect="non-scaling-stroke" d="M18.25 15.5a.75.75 0 00.75-.75v-9a.75.75 0 00-.75-.75h-9a.75.75 0 000 1.5h7.19L6.22 16.72a.75.75 0 101.06 1.06L17.5 7.56v7.19c0 .414.336.75.75.75z"></path>
+						</svg>
+					</a> 
+				</div>
+			</section>
+			<section class="works">
+				<h2 class="works__title">
+					<span class="oh"><span class="oh__inner">Selected</span></span>
+					<span class="oh"><span class="oh__inner">Works</span></span>
+				</h2>
+				<!-- grid gets flipped here -->
+			</section>
+		</main>
+		<script src="https://tympanus.net/codrops/adpacks/cda_frame.js"></script>
+		<script type="module" src="js/index.js"></script>
+	</body>
+</html>
